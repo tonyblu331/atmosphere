@@ -19,7 +19,7 @@ ReactRouterLink.displayName = 'ReactRouterLink';
 
 const NavLinkComponent = forwardRef<
   ElementRef<typeof ReactRouterLink>,
-  NavigationMenuAsLinkProps
+  NavigationMenuAsLinkProps<undefined>
 >(({ href, className, onClick, ...props }, ref) => (
   <ReactRouterLink
     ref={ref}
